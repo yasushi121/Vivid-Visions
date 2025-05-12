@@ -1,0 +1,37 @@
+#header {
+ background-color: rgba(0, 0, 0, 0.54);
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 24px 24px;
+  color: #FFFFFF;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+}
+

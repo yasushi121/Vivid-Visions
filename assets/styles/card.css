@@ -37,6 +37,31 @@ main {
   font-size: 2rem;
 }
 
+.intro h1{
+  text-align: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro h2 {
+  text-align: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 7rem;
+}
+
+.intro h3 {
+  text-align: center;
+  max-width:500px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-bottom: 7rem;
+}
 /* Artist section */
 .artist-section {
   text-align: center;
@@ -81,7 +106,7 @@ margin-bottom: 3rem;
   border-radius: 20px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.432);
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
 }
 
 .artwork-card img {
@@ -132,12 +157,6 @@ margin-bottom: 3rem;
  margin-bottom: 3rem;
 }
 
-.subtitle2 {
-  font-size: 4rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
 /* Artwork grid */
 .artwork-grid2 {
   display: grid;
@@ -151,7 +170,8 @@ margin-bottom: 3rem;
   line-height: 1.7rem;
   border-radius: 20px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.697);
+  background: rgba(0, 0, 0, 0.432);
+  margin-bottom: 7rem;
 }
 
 .artwork-card2 img {
@@ -163,7 +183,7 @@ margin-bottom: 3rem;
 
 .artwork-info2 {
   padding: 1rem;
-  color: black;
+  color: white;
 }
 
 .artwork-info2 h3 {
@@ -174,17 +194,4 @@ margin-bottom: 3rem;
 .artwork-info2 p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.artwork-info2 button {
-  padding: 0.5rem 1rem;
-  background-color: transparent;
-  border: 1px solid black;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.artwork-info2 button:hover {
-  background-color: #f0f0f0;
 }

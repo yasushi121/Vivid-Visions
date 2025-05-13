@@ -26,8 +26,25 @@
   background-color: #f0f0f0a6;
 }
 
-.artwork-card button{
+.artwork-card button {
   color: rgb(255, 255, 255);
   background-color: #f0f0f034;
+}
 
+.artwork-info2 button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.artwork-info2 button:hover {
+  background-color: #f0f0f0a6;
+}
+
+.artwork-card2 button{
+  color: rgb(255, 255, 255);
+  background-color: #f0f0f034;
 }

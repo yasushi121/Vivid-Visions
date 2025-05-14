@@ -3,36 +3,69 @@
 }
 
 .navbar {
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
-  padding: 24px 24px;
-  color: #FFFFFF;
-}
-
-.nav-links {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1000;
 }
 
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
+.navbar div {
   color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
+/* Hide the default checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* Style the hamburger button */
 .menu-btn {
   display: none;
-  font-size: 24px;
+  font-size: 2rem;
+  color: white;
   cursor: pointer;
 }
 
-.menu-toggle {
-  display: none;
+/* Navigation links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: fit-content;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-toggle:checked + .menu-btn + .nav-links {
+    display: flex;
+  }
 }
 
 

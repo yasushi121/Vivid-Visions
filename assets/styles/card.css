@@ -26,20 +26,20 @@ main {
 }
 
 .welcome p {
-  line-height: 1.7rem;
+  line-height: 2.5rem;
   font-size: 2rem;
   margin-bottom: 1.8rem;
 }
 
 .Welcome p {
-  margin-bottom: 2rem;
-  line-height: 1.7rem;
+  margin-bottom: 10rem;
+  line-height: 3rem;
   font-size: 2rem;
 }
 
-.intro h1{
+.intro p{
   text-align: center;
-  max-width: 2000px;
+  max-width: 1000px;
   margin: 0 auto;
   font-size: 2rem;
   line-height: 2.5rem;
@@ -51,13 +51,13 @@ main {
   text-align: center;
   max-width: 2000px;
   margin: 0 auto;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
-.intro h3 {
+.intro p {
   text-align: center;
   max-width:500px;
-  line-height: 30px;
+  line-height: 47px;
   margin: 0 auto;
   font-size: 2rem;
   margin-bottom: 7rem;
@@ -79,7 +79,7 @@ main {
   margin-bottom: 2rem;
 }
 
-.artist-section h3{
+.artist-section p{
   line-height: 1.7rem;
   font-size: 2rem;
   text-align: center;
@@ -142,7 +142,7 @@ margin-bottom: 3rem;
   margin-bottom: 2rem;
 }
 
-.artist-section2 h3{
+.artist-section2 p{
   line-height: 1.7rem;
   font-size: 2rem;
   text-align: center;
@@ -194,4 +194,91 @@ margin-bottom: 3rem;
 .artwork-info2 p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.artist-section3 {
+  text-align: center;
+}
+
+.artist-section3 h1{
+  font-size: 4rem;
+  margin: 1;
+  margin-bottom: 2rem;
+}
+
+.artist-section3 h2{
+  font-size: 4rem;
+  margin: 1;
+  margin-bottom: 2rem;
+}
+
+.artist-section3 p{
+  line-height: 1.7rem;
+  font-size: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.artist-section3 img{
+ width: 474px;
+ height: 601px;
+ border-radius: 20px;
+ margin-bottom: 3rem;
+}
+
+/* Artwork grid */
+.artwork-grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.artwork-card3 {
+  line-height: 1.7rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.432);
+  margin-bottom: 7rem;
+}
+
+.artwork-card3 img {
+  width: 100%;
+  height: 235px;
+  border-radius: 7.5px;
+  object-fit: cover;
+}
+
+.artwork-info3 {
+  padding: 1rem;
+  color: white;
+}
+
+.artwork-info3 h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.artwork-info3 p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Artist section */
+.artist-section {
+  text-align: center;
+}
+
+.artist-section h1{
+  font-size: 4rem;
+  margin: 1;
+  margin-bottom: 2rem;
+}
+
+.artist-section h2{
+  font-size: 4rem;
+  margin: 1;
+  margin-bottom: 2rem;
 }

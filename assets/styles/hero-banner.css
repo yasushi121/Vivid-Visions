@@ -14,7 +14,13 @@
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.hero-content p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 .hero-image {

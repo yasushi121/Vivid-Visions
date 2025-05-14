@@ -2,6 +2,11 @@
  background-color: rgba(0, 0, 0, 0.54);
 }
 
+.logo img {
+  height: 100px; 
+  width: auto;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -18,12 +23,10 @@
   font-weight: bold;
 }
 
-/* Hide the default checkbox */
 .menu-toggle {
   display: none;
 }
 
-/* Style the hamburger button */
 .menu-btn {
   display: none;
   font-size: 2rem;
@@ -31,7 +34,6 @@
   cursor: pointer;
 }
 
-/* Navigation links */
 .nav-links {
   display: flex;
   list-style: none;
@@ -44,7 +46,6 @@
   font-size: 1rem;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .menu-btn {
     display: block;
@@ -62,7 +63,6 @@
     width: fit-content;
   }
 
-  /* Show menu when checkbox is checked */
   .menu-toggle:checked + .menu-btn + .nav-links {
     display: flex;
   }

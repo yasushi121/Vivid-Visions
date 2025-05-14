@@ -13,13 +13,13 @@
   max-width: 500px;
 }
 
-.hero-content h1 {
-  font-size: 4rem;
+#hero-banner h1 {
+  font-size: 3.5rem;
   line-height: 4rem;
 }
 
 .hero-content p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 2.5rem;
 }
 

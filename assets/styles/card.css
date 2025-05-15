@@ -5,7 +5,6 @@ body, main {
   background-color: #f5f5f5;
 }
 
-/* Main content */
 main {
   flex: 1;
   padding: 2rem;
@@ -14,7 +13,6 @@ main {
   gap: 2rem;
 }
 
-/* Welcome section */
 .welcome {
   text-align: center;
   max-width: 1000px;
@@ -62,7 +60,7 @@ main {
   font-size: 2rem;
   margin-bottom: 7rem;
 }
-/* Artist section */
+
 .artist-section {
   text-align: center;
 }
@@ -92,7 +90,6 @@ border-radius: 20px;
 margin-bottom: 3rem;
 }
 
-/* Artwork grid */
 .artwork-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -131,7 +128,6 @@ margin-bottom: 3rem;
   margin-bottom: 1rem;
 }
 
-/* Artist section */
 .artist-section2 {
   text-align: center;
 }
@@ -157,7 +153,6 @@ margin-bottom: 3rem;
  margin-bottom: 3rem;
 }
 
-/* Artwork grid */
 .artwork-grid2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -227,7 +222,6 @@ margin-bottom: 3rem;
  margin-bottom: 3rem;
 }
 
-/* Artwork grid */
 .artwork-grid3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -266,7 +260,6 @@ margin-bottom: 3rem;
   margin-bottom: 1rem;
 }
 
-/* Artist section */
 .artist-section {
   text-align: center;
 }

@@ -1,0 +1,93 @@
+.primary-button  {
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  color:black;
+  border: 1px solid black;
+  padding: 12px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.secondary-button {
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  color:black;
+  border: 1px solid black;
+  padding: 12px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  background: rgba(128, 128, 128, 0.521);
+}
+
+.artwork-info button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.artwork-info button:hover {
+  background-color: #f0f0f0a6;
+}
+
+.artwork-card button {
+  color: rgb(255, 255, 255);
+  background-color: #f0f0f034;
+}
+
+.artwork-info2 button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.artwork-info2 button:hover {
+  background-color: #f0f0f0a6;
+}
+
+.artwork-card2 button{
+  color: rgb(255, 255, 255);
+  background-color: #f0f0f034;
+}
+
+.artwork-info3 button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.artwork-info3 button:hover {
+  background-color: #f0f0f0a6;
+}
+
+.artwork-card3 button{
+  color: rgb(255, 255, 255);
+  background-color: #f0f0f034;
+}
+
+.btn-group button {
+  padding: 0.5rem 1rem;
+  background-color: rgba(128, 128, 128, 0.356);
+  border: 1px solid black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-group button:hover {
+background-color: #f0f0f0a6;
+}

@@ -1,0 +1,36 @@
+
+@import "button.css";
+@import "card.css";
+
+
+@import "navbar.css";
+@import "hero-banner.css";
+@import "services.css";
+@import "contact.css";
+@import "submission.css";
+@import "footer.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+head, body, main{
+  background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.441)),
+   url(/assets/image/fb67714c3928bfd8fb7ea2dc9cb79b8b.jpg);
+  background-size:contain;
+}
+
+body, main {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+  color: white;
+  background-color: #f5f5f5;
+}

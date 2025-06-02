@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | Mindly</title>
+  <link rel="stylesheet" href="SIGN UP MINDLY.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    body.fade-in {
+      opacity: 1;
+    }
+
+    /*navbar styles here */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    .nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 500;
+    }
+
+    .nav .signup {
+      background-color: #78a77c;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">mindly.</div>
+    <nav class="nav">
+      <a href="home mindly.html">Home</a>
+      <a href="about mindly.html">About Us</a>
+      <a href="#">Blog</a>
+      <a href="LOG IN MINDLY.html">Log In</a>
+      <a href="SIGN UP MINDLY.html" class="signup">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Sign Up Form Section -->
+  <div class="signup-container">
+    <h1>Create Your Mindly Account</h1>
+    <form class="signup-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.body.classList.add("fade-in");
+    });
+  </script>
+</body>
+</html>

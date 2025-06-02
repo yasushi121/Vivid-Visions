@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background: url('https://i.imgur.com/mQ4l7cB.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+}
+
+.logo img {
+  height: 65px;
+  width: auto;
+}
+
+.nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #c2d4cc;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.nav .signup {
+  border: 1px solid #c2d4cc;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Blog Section */
+.blog-section {
+  padding: 60px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+/* Blog Box (Card) */
+.blog-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.blog-box h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.blog-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

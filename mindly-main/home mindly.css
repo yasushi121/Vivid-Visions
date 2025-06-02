@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background: url('https://i.imgur.com/mQ4l7cB.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+/* Header/Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 65px;
+  width: auto;
+}
+
+
+/* Navigation Links */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #c2d4cc;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  font-weight: 500;
+}
+
+.nav .signup {
+  border: 1px solid #c2d4cc;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #c2d4cc;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.nav .signup {
+  border: 1px solid #c2d4cc;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+
+
+/* GIF PHONE */
+.phone-preview {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.phone-preview video,
+.phone-preview img {
+  width: 100%;
+  max-width: 1000px; /* increased from 400px */
+  border-radius: 100px;
+}
+
+
+
+.text-section {
+  flex: 1;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.store-logos img {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.available {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #d3d3d3;
+}
+
+.description {
+  margin-top: 30px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+.cta-buttons {
+  margin-top: 40px;
+}
+
+.cta-buttons button {
+  padding: 14px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started {
+  background-color: #b3c8b7;
+  color: #000;
+}
+
+.try-pro {
+  background-color: #0d0d0d;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.get-started:hover,
+.try-pro:hover {
+  opacity: 0.85;
+}

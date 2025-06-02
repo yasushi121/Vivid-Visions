@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In | Mindly</title>
+  <link rel="stylesheet" href="LOG IN.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    }
+    
+  body.fade-in {
+    opacity: 1;
+    }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    }
+
+  .nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #c2d4cc;
+    padding: 10px 18px;
+    border-radius: 30px;
+    transition: background 0.3s;
+    }
+
+  .nav .signup {
+    border: 1px solid #c2d4cc;
+    }
+
+  .nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+  .log-in-container {
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+  .log-in-container h1 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    }
+
+  .log-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+  .log-in-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    }
+
+  .log-in-form button {
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #0d0d0d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+
+  .log-in-form button:hover {
+    background-color: #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="navbar">
+  <div class="logo">
+  <img src="images/midnly logo.png" alt="Mindly Logo">
+</div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+<label for="menu-toggle" class="hamburger">
+  <img src="images/burger-removebg-preview.png" alt="Menu">
+</label>
+
+    <div class="nav-container">
+    <nav class="nav">
+      <a href="home mindly.html">Home</a>
+      <a href="about mindly.html">About Us</a>
+      <a href="BLOG MINDLY.html">Blog</a>
+      <a href="LOG IN MINDLY.html">Log In</a>
+      <a href="SIGN UP MINDLY.html" class="signup">Sign Up</a>
+    </nav>
+    
+  </header>
+  <!-- Log In Form Section -->
+  <div class="log-in-container">
+    <h1>Welcome back to Mindly!</h1>
+    <form class="log-in-form" action="newsfeed.html" method="get">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.body.classList.add("fade-in");
+    });
+  </script>
+</body>
+</html>

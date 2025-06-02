@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | Mindly</title>
+  <link rel="stylesheet" href="SIGN UP MINDLY.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+  body {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    }
+
+  body.fade-in {
+    opacity: 1;
+    }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 20px;
+      
+    }
+
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 80px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    }
+
+  .logo img {
+    height: 65px;
+    width: auto;
+    }
+
+  .nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #c2d4cc;
+    padding: 10px 18px;
+    border-radius: 30px;
+    transition: background 0.3s;
+    }
+
+  .nav .signup {
+    border: 1px solid #c2d4cc;
+    }
+
+  .nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    }
+
+  .hamburger img {
+    margin-top: auto;
+    margin-left: auto;
+    width: 60px;
+    height: auto;
+    }
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    }
+
+  .menu-toggle:checked + .hamburger + .nav-container .nav {
+    display: flex;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+
+  </style>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="navbar">
+  <div class="logo">
+  <img src="images/midnly logo.png" alt="Mindly Logo">
+</div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+<label for="menu-toggle" class="hamburger">
+  <img src="images/burger-removebg-preview.png" alt="Menu">
+</label>
+
+    <div class="nav-container">
+    <nav class="nav">
+      <a href="home mindly.html">Home</a>
+      <a href="about mindly.html">About Us</a>
+      <a href="BLOG MINDLY.html">Blog</a>
+      <a href="LOG IN MINDLY.html">Log In</a>
+      <a href="SIGN UP MINDLY.html" class="signup">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Sign Up Form Section -->
+  <div class="signup-container">
+    <h1>Create Your Mindly Account</h1>
+    <form class="signup-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.body.classList.add("fade-in");
+    });
+  </script>
+</body>
+</html>
